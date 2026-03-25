@@ -38,10 +38,15 @@ const Footer = () => {
             
             <div className="space-y-6">
               <h4 className="text-xs uppercase tracking-widest font-bold text-white/30">Contact</h4>
-              <div className="flex items-start space-x-4">
-                <Phone className="w-5 h-5 text-accent mt-1" />
+              <a 
+                href="https://wa.me/919513057757" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-start space-x-4 group hover:text-accent transition-colors"
+              >
+                <Phone className="w-5 h-5 text-accent mt-1 group-hover:scale-110 transition-transform" />
                 <span className="font-light text-white/70 tracking-widest">+91 9513057757</span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -51,9 +56,9 @@ const Footer = () => {
             &copy; 2026 VIJAY KUMAR B S. ALL RIGHTS RESERVED.
           </div>
           <div className="flex space-x-8 text-[10px] uppercase tracking-[0.3em] font-bold">
-            <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-accent transition-colors">GitHub</a>
-            <a href="#" className="hover:text-accent transition-colors">Figma</a>
+            <a href="https://www.linkedin.com/in/vijay-kumar-b-s/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">LinkedIn</a>
+            <a href="https://github.com/vijayappugowda" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GitHub</a>
+            <a href="https://wa.me/919513057757" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">WhatsApp</a>
           </div>
         </div>
       </div>
