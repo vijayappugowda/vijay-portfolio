@@ -33,10 +33,10 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </motion.a>
             <motion.a
-              href="#about"
+              href="mailto:vijayappugowda@gmail.com"
               className="flex items-center space-x-4 border border-white/20 hover:border-white px-10 py-5 font-bold uppercase tracking-widest transition-all"
             >
-              <span>About Me</span>
+              <span>Connect</span>
             </motion.a>
           </div>
         </motion.div>
