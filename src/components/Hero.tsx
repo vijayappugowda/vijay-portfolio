@@ -14,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="text-sm uppercase tracking-[0.3em] font-medium text-white/50 mb-6 block">
-            MCA Graduate | AI & ML Specialist
+            MCA Graduate | Full Stack Developer | AI & ML | Data Analytics | UI/UX
           </span>
           <h1 className="text-[clamp(3rem,12vw,8rem)] font-playfair font-black leading-[0.9] tracking-tighter mb-8">
             VIJAY <br /> KUMAR B S
